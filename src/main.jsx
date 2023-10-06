@@ -8,7 +8,6 @@ import './index.css';
 import Root, { loader as rootLoader } from "./routes/root";
 import Product, { loader as productLoader } from './routes/product';
 
-
 const router = createBrowserRouter([
   {
     path: "/",

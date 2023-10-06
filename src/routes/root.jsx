@@ -26,7 +26,7 @@ export default function Root() {
                 {prodList.map((product) => {
                     return (
                         <li key={product.id}>
-                            <Link to={`/issue/${product.id}`}>
+                            <Link to={`/products/${product.id}`}>
                                 {product.title}
                             </Link>
                         </li>
